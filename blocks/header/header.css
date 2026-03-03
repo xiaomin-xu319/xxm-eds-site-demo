@@ -58,6 +58,11 @@ header nav a:any-link {
   color: currentcolor;
 }
 
+header nav a:any-link:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
 /* hamburger */
 header nav .nav-hamburger {
   grid-area: hamburger;
